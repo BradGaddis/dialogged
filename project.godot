@@ -14,6 +14,10 @@ config/name="Dialogged"
 config/features=PackedStringArray("4.6", "Forward Plus")
 config/icon="uid://dgj22nl6oj1gq"
 
+[editor_plugins]
+
+enabled=PackedStringArray("res://addons/dialogged/plugin.cfg")
+
 [physics]
 
 3d/physics_engine="Jolt Physics"
